@@ -6,6 +6,12 @@ Sample java project the Workshop "Deploying Java applications with Docker to AWS
  * make
  * Jav
 
+## Building the project
+
+```
+make build
+```
+
 ## Running the tests
 
 ```

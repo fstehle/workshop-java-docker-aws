@@ -1,0 +1,14 @@
+plugins {
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:servlet-api:2.5'
+    compile 'mysql:mysql-connector-java:8.0.16'
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.h2database:h2:1.4.196'
+}
